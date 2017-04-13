@@ -61,6 +61,7 @@ box-shadow: 0px 0px 15px 5px rgba(1, 1, 1, 0.4);
 }
 .info{
 	overflow: hidden;
+	background: red;
 }
 
 .shape img{padding: 0;
@@ -120,7 +121,7 @@ h2{
 	background-color: #ffffff;
 }
 .city{
-	margin-bottom: -4px;
+	
 }
 .block-white{
 	float: left;
@@ -160,8 +161,9 @@ h2{
 	background-position: -165px 0;
 }
 
-figure{
-	margin-bottom: -4px;
+img{
+
+	vertical-align:bottom
 }	
 .nature{
 	float: left;
