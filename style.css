@@ -216,7 +216,7 @@ h1{
 	color: #857871;
 }
 .main-footer{
-	padding: 0px 132px;
+	padding: 0 0 0 132px;
 	background: #ffffff;
 }
 .teg{
@@ -230,7 +230,7 @@ h1{
 	width: 180px;
 	min-height: 60px;
 	float: left;
-	margin: 40px 164px 0 253px;
+	margin: 40px 200px 0 253px;
 	
 }
 .social-bth{
@@ -275,12 +275,17 @@ h1{
 }
 .bth:hover,
 .bth:active{
-	background-color: #FF8000;
+	background-color: 393737;
+	border-radius: 50%;
+	font-size: 20px;
+	padding: 33px 30px;
+	margin-top: -15px;
+	
 
 }
 .footer-copyright{
 	float: left;
-	width: 220px;
+	width: 270px;
 	min-height: 60px;
 	margin-top: 31px;
 	
@@ -289,7 +294,7 @@ h1{
 .footer-copyright p{
 	display: inline-block;
 	margin-top: 23px;
-	margin-right: 4px;
+	margin-right: 6px;
 	font-size: 17px;
 }
 
