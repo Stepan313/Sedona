@@ -367,6 +367,15 @@ overflow: hidden;
 	stroke: #000000;
 	fill: #000000;
 }
+.adl line:active,
+.cld line:active{
+	stroke: #81b3d2;
+}
+.adl polygon:active,
+.cld polygon:active{
+	stroke: #81b3d2;
+	fill: #81b3d2;
+}
 .data-block{
 	position: relative;
 	display: inline-block;
@@ -381,6 +390,14 @@ overflow: hidden;
 	background: url("img/sprite.png") no-repeat;
 	background-position: -155px -119px;
 	cursor: pointer;
+}
+.calendar:hover{
+	background: url("img/sprite.png") no-repeat;
+	background-position: -120px -91px;
+}
+.calendar:active{
+	background: url("img/sprite.png") no-repeat;
+	background-position: -82px -91px;
 }
 .search-form input:hover{
 	background-color: #ebebeb;
