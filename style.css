@@ -314,6 +314,9 @@ input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button{
     -webkit-appearance: none;
 }
+input[type='number'] {
+    -moz-appearance: textfield;
+}
 
 .search-form input[type="date"]{
 	width: 310px;
