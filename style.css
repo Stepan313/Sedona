@@ -195,6 +195,10 @@ img{
 	color: #000000;
 	text-align: center;
 }
+.block-gray .number::before,
+.block-gray .number::after{
+	background-color: #000000;
+}
 .interest{
 	margin: 0;
 	padding: 55px 313px 0;
