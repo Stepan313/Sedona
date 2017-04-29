@@ -393,11 +393,11 @@ overflow: hidden;
 }
 .calendar:hover{
 	background: url("img/sprite.png") no-repeat;
-	background-position: -120px -91px;
+	background-position: -120px -88px;
 }
 .calendar:active{
 	background: url("img/sprite.png") no-repeat;
-	background-position: -82px -91px;
+	background-position: -82px -88px;
 }
 .search-form input:hover{
 	background-color: #ebebeb;
