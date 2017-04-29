@@ -14,20 +14,20 @@
 	
 	<nav class="main-navigation">
 		<ul>
-			<li>
-				<a href="">Информация</a>
+			<li class="active-head">
+				<a  href="index.html">Информация</a>
 			</li>
-			<li>
-				<a href="price.html">Фото и видео</a>
+			<li class="deactive">
+				<a href="">Фото и видео</a>
 			</li>
 			<li class="logo">
 				<a class="Logo-header" href="index.html"><img src="img/logo-top.png" width="138" height="70" alt="city of sedona"></a>
 			</li>
-			<li>
-				<a href="shop.html">карта штата</a>
+			<li class="deactive">
+				<a href="">карта штата</a>
 			</li>
 			<li>
-				<a class="linkEnroll" href="#">гостиницы</a>
+				<a href="hotels.html">гостиницы</a>
 			</li>
 		</ul>
 	</nav>
@@ -98,7 +98,36 @@
 	  		</div>
 	  	</div>
 	  	<div class="map">
-	  		<img src="img/map.jpg" alt="map">
+	  	<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d16025.435478062067!2d-111.74776037180014!3d34.87430358655498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sru!2sru!4v1493385878455" width="1200" height="593" frameborder="0" style="border:0" allowfullscreen></iframe>
+	  			<div class="search-form">
+		  			<form method="post" action="/search">
+		  				<label for="arrival-date">дата заезда:</label><div class="data-block"><input type="text" name="date" id="arrival-date" class="date-input" value="01 июля 2017" readonly><label for="arrival-date" class="calendar"></label></div>
+		  				<label for="exit-date">дата выезда:</label><div class="data-block"><input type="text" name="data" id="exit-date" class="date-input" value="21 июля 2017" readonly><label for="exit-date" class="calendar"></label></div>
+		  				<label for="adults">взрослые:</label><div class="adl"><a class="minus" href="#">
+		  				<svg width="12" height="12" viewBox="0 0 12 12">
+		  					<line x1="0" y1="6" x2="12" y2="6" stroke="#a9a9a9" stroke-width="3"/>
+							
+		  				</svg>
+		  				</a><input type="number" id="adults" value="2" min="0" max="100"><a class="plus" href="">
+						<svg width="12" height="12" viewBox="0 0 12 12">
+							<polygon points="0,5 5,5 5,0 7,0 7,5 12,5 12,7 7,7 7,12 5,12 5,7 0,7 " fill="#a9a9a9" stroke="#a9a9a9" stroke-width="1" />
+		  				</svg>
+		  				</a></div>
+						<label for="children">дети:</label>
+							<div class="cld"><a class="minus" href="">
+		  					<svg width="12" height="12" viewBox="0 0 12 12">
+		  					<line x1="0" y1="6" x2="12" y2="6" stroke="#a9a9a9" stroke-width="3"/>
+		  				</svg>
+		  				</a><input type="number" id="children" value="0" min="0" max="100"><a class="plus" href="">
+		  				<svg width="12" height="12" viewBox="0 0 12 12">
+		  					<!--<line x1="0" y1="6" x2="12" y2="6" stroke="#a9a9a9" stroke-width="3"/>
+							<line x1="6" y1="0" x2="6" y2="12" stroke="#a9a9a9" stroke-width="3"/>-->
+							<polygon points="0,5 5,5 5,0 7,0 7,5 12,5 12,7 7,7 7,12 5,12 5,7 0,7 " fill="#a9a9a9" stroke="#a9a9a9" stroke-width="1" />
+		  				</svg>
+		  				</a></div>
+		  				<button class="btn" type="submit">Найти</button>
+		 			 </form>
+				</div>
 	  	</div>
 	  	</main>
 	<footer class="main-footer">
@@ -116,18 +145,7 @@
 	<a class="bth" href="https://stepan313.github.io/CatPlaton/">CatPlaton</a>
 	</section>
 	</footer>
-	
-	<!--<div class="search-form">
-		  <form method="post" action="/search">
-		  	<label for="arrival date"></label><input type="date" id="arrival date">
-		  	<label for="exit date"></label><input type="date" id="exit date">
-		  	<label for="adults"></label><input type="text" id="adults">
-		  	<label for="children"></label><input type="text" id="children">
-		  	<button class="bth" type="submit">Найти</button>
-		  </form>
-
-	</div>-->
-	
 	</div>
+<script src="script.js"></script>
 </body>
 </html>
